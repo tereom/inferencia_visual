@@ -1,5 +1,5 @@
 # inferencia_visual
-Slides de la plática inferencia visual encuentro de usuarios de R 2018
+[Slides](https://tereom.github.io/tutoriales/inferencia_visual_pres) de la plática inferencia visual encuentro de usuarios de R 2018, los slides están [aquí](https://tereom.github.io/tutoriales/inferencia_visual_pres)
 
 ## Referencias
 
