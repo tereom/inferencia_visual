@@ -1,11 +1,12 @@
 ---
 title: "Inferencia visual"
 author: "Teresa Ortiz"
-date: "2/15/2018"
+date: "2/15/2018 </br> https://github.com/tereom/inferencia_visual"
 output:
   ioslides_presentation:
     widescreen: true
     smaller: true
+    fig_caption: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -209,7 +210,7 @@ y permutamos los valores.
 de esta. 
 
 ## Calibración con Rorschach
-La siguiente imagene proviene de un escrito de Edmond Murphy que en 1964 escribió
+La siguiente imagen proviene de un escrito de Edmond Murphy que en 1964 escribió
 sobre la dudosa inferencia de mecanismos causales a partir de la observación de 
 una distribución bimodal (Edward Tufte, *The Visual Display of Quantitative 
 Information*, p. 169):
@@ -374,11 +375,13 @@ En el ejemplo de estaturas se pueden utilizar pruebas estadísticas tradicionale
 sin embargo, estas pruebas no cubren todas las complejidades que pueden surgir 
 en una exploración de datos.
 
+El siguiente es un *lineup* de nubes de palabras tomado de [Graphical Inference for Infovis](http://stat.wharton.upenn.edu/~buja/PAPERS/Wickham-Cook-Hofmann-Buja-IEEE-TransVizCompGraphics_2010-Graphical%20Inference%20for%20Infovis.pdf).
+
 ```{r wordcloud}
 library(png)
 library(grid)
 img <- readPNG("imagenes/wordcloud.png")
- grid.raster(img)
+grid.raster(img)
 ```
 
 ## El paquete nullabor
@@ -437,10 +440,11 @@ nula cuando esta es falsa.
 
 * En el caso de pruebas visuales la potencia depende de la calidad de la gráfica.
 
-Se ha estudiado la potencia de las pruebas [Validation of Visual Statistical Inference, Applied to Linear Models](http://www.tandfonline.com/doi/abs/10.1080/01621459.2013.808157)
+* Se ha estudiado la potencia de las pruebas [Validation of Visual Statistical Inference, Applied to Linear Models](http://www.tandfonline.com/doi/abs/10.1080/01621459.2013.808157)
 
-**Mayor valor p**
-Si usamos un jurado compuesto por $K$ jueces en lugar de un juez y $k$ de ellos entonces
+**Valor p**
+
+* Si usamos un jurado compuesto por $K$ jueces en lugar de un juez y $k$ de ellos entonces
 el valor p combinado es $P(X \le k)$ donde $X$ tiene distribución 
 $Binomial(K, 1/20)$. Si todos los jueces identifican los datos el valor p sería
 $0.05^K$
@@ -455,8 +459,12 @@ The first principle is that you must not fool yourself — and you are the easie
 *Richard Feynman*
 
 </br>
-Github:[/tereom](https://github.com/tereom)
+**Ligas:**
 
-Twitter: @teresaOM
+* Presentación: https://github.com/tereom/inferencia_visual
 
-Correo: teresa.ortiz.mancera@gmail.com
+* Github:[/tereom](https://github.com/tereom)
+
+* Twitter: @teresaOM
+
+* Correo: teresa.ortiz.mancera@gmail.com
